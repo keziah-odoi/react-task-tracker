@@ -90,7 +90,7 @@ const App = () => {
         <Routes>
           <Route
             path="/"
-            render={(props) => (
+            element={
               <>
                 {showAddTask && <AddTask onAdd={addTask} />}
                 {tasks.length > 0 ? (
@@ -100,10 +100,10 @@ const App = () => {
                     onToggle={toggleReminder}
                   />
                 ) : (
-                  "No tasks to show."
+                  "No Tasks To Show"
                 )}
               </>
-            )}
+            }
           />
 
           <Route path="/about" element={<About />} />
