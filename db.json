@@ -17,6 +17,12 @@
       "day": "Jul 5th at 3:30 pm",
       "reminder": false,
       "id": 4
+    },
+    {
+      "text": "Dinner with Romeo",
+      "day": "November 21st at 6:00 pm",
+      "reminder": true,
+      "id": 5
     }
   ]
 }
